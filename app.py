@@ -133,6 +133,12 @@ if "custom_feedbacks" not in st.session_state:
     st.session_state["custom_feedbacks"] = []
 if "last_submission_impact" not in st.session_state:
     st.session_state["last_submission_impact"] = None
+if "portal_role" not in st.session_state:
+    st.session_state["portal_role"] = "👤 Employee Portal"
+if "emp_submitted_receipt" not in st.session_state:
+    st.session_state["emp_submitted_receipt"] = None
+if "emp_feedback_input" not in st.session_state:
+    st.session_state["emp_feedback_input"] = ""
 
 # Load Data
 @st.cache_data
@@ -163,134 +169,189 @@ with st.sidebar:
     st.markdown("### **EchoGuard AI**")
     st.caption("Ethical Anonymous Feedback & Retention Intelligence")
     st.markdown("---")
-    
-    menu = st.radio(
-        "Navigation",
-        [
-            "📊 Executive Overview",
-            "🎯 RAG Risk Matrix & Teams",
-            "🔍 Anonymised Feedback Explorer",
-            "🧪 AI Playground & Privacy Sandbox",
-            "📈 Team Attrition Prediction Lab",
-            "📉 Model Evaluation & Benchmarks",
-            "🚨 Escalation & Human Review Queue",
-            "🛡️ Privacy, Ethics & Methodology"
-        ],
-        index=0,
-        key="main_nav_radio"
-    )
 
-    if st.session_state.get("custom_feedbacks"):
+    # Portal Role Selector (Employee vs HR)
+    portal_role = st.radio(
+        "Current Portal View",
+        [
+            "👤 Employee Portal",
+            "🏢 HR & Leadership Suite"
+        ],
+        index=0 if "Employee" in st.session_state.get("portal_role", "Employee") else 1,
+        key="portal_role_radio"
+    )
+    st.session_state["portal_role"] = portal_role
+
+    if portal_role == "👤 Employee Portal":
         st.markdown(
-            f"""
-            <div style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.4); border-radius: 8px; padding: 8px 10px; margin-top: 8px; font-size: 0.78rem; color: #C7D2FE;">
-                <b>📥 Live Submissions Active:</b> {len(st.session_state['custom_feedbacks'])} reviews
+            """
+            <div style="background: rgba(16, 185, 129, 0.12); border: 1px solid #10B981; border-radius: 8px; padding: 10px; margin-top: 10px; font-size: 0.8rem; color: #34D399;">
+                🔒 <b>Safe Harbor Channel Active</b><br>
+                <span style="color: #CBD5E1; font-size: 0.74rem;">
+                    Submit feedback with 100% confidentiality. Your identity is stripped before HR receives it.
+                </span>
             </div>
             """,
             unsafe_allow_html=True
         )
-        if st.button("🔄 Reset to Baseline", use_container_width=True):
-            st.session_state["custom_feedbacks"] = []
-            st.session_state["last_submission_impact"] = None
-            st.rerun()
-    
-    st.markdown("---")
-    st.markdown("#### **⚙️ RAG Risk Thresholds**")
-    red_thresh = st.slider("Red (Critical) Attrition Prob", 0.50, 0.90, 0.65, 0.05, help="Cutoff to trigger Critical RED team alert")
-    amber_thresh = st.slider("Amber (Elevated) Prob", 0.20, 0.50, 0.35, 0.05, help="Cutoff for Moderate AMBER warning")
-    neg_sent_thresh = st.slider("Negative Sentiment Alert (%)", 30, 70, 45, 5) / 100.0
+        st.markdown("---")
+        emp_menu = st.radio(
+            "Employee Portal Menu",
+            [
+                "📝 Submit Anonymous Feedback",
+                "🛡️ Employee Privacy & Whistleblower Rights"
+            ],
+            index=0,
+            key="emp_nav_radio"
+        )
+        
+        # Default internal HR thresholds so backend calculations run smoothly
+        red_thresh = 0.65
+        amber_thresh = 0.35
+        neg_sent_thresh = 0.45
+        model_code = "hybrid"
+        llm_inst = get_llm_engine(provider="auto")
+        prov_info = llm_inst.get_active_provider_info()
+        menu = None
 
-    st.markdown("#### **🤖 Prediction Model**")
-    selected_model = st.selectbox(
-        "Active Predictor",
-        [
-            "Hybrid AI (LLM Reasoner + Random Forest)",
-            "Random Forest (Ensemble ML)",
-            "AI LLM Predictive Reasoner",
-            "Gradient Boosting (Boosted Trees ML)",
-            "Logistic Regression (Linear ML)",
-            "Dummy Classifier (Baseline ML)"
-        ],
-        index=0
-    )
-    model_code = (
-        "hybrid" if "Hybrid AI" in selected_model else (
-            "llm" if "AI LLM" in selected_model else (
-                "rf" if "Random Forest" in selected_model else (
-                    "gb" if "Gradient Boosting" in selected_model else (
-                        "logreg" if "Logistic" in selected_model else "dummy"
+    else:
+        st.markdown(
+            """
+            <div style="background: rgba(99, 102, 241, 0.15); border: 1px solid #6366F1; border-radius: 8px; padding: 10px; margin-top: 8px; font-size: 0.8rem; color: #C7D2FE;">
+                👔 <b>HR & Executive Analytics Suite</b><br>
+                <span style="color: #94A3B8; font-size: 0.74rem;">Full organizational health metrics, RAG risk matrix, and ML attrition predictions.</span>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        st.markdown("---")
+        menu = st.radio(
+            "HR Suite Navigation",
+            [
+                "📊 Executive Overview",
+                "🎯 RAG Risk Matrix & Teams",
+                "🔍 Anonymised Feedback Explorer",
+                "🧪 AI Testing & Redaction Sandbox",
+                "📈 Team Attrition Prediction Lab",
+                "📉 Model Evaluation & Benchmarks",
+                "🚨 Escalation & Human Review Queue",
+                "🛡️ Privacy, Ethics & Methodology"
+            ],
+            index=0,
+            key="main_nav_radio"
+        )
+
+        if st.session_state.get("custom_feedbacks"):
+            st.markdown(
+                f"""
+                <div style="background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.4); border-radius: 8px; padding: 8px 10px; margin-top: 8px; font-size: 0.78rem; color: #C7D2FE;">
+                    <b>📥 Live Submissions Active:</b> {len(st.session_state['custom_feedbacks'])} reviews
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+            if st.button("🔄 Reset to Baseline", use_container_width=True):
+                st.session_state["custom_feedbacks"] = []
+                st.session_state["last_submission_impact"] = None
+                st.rerun()
+
+        st.markdown("---")
+        st.markdown("#### **⚙️ RAG Risk Thresholds**")
+        red_thresh = st.slider("Red (Critical) Attrition Prob", 0.50, 0.90, 0.65, 0.05, help="Cutoff to trigger Critical RED team alert")
+        amber_thresh = st.slider("Amber (Elevated) Prob", 0.20, 0.50, 0.35, 0.05, help="Cutoff for Moderate AMBER warning")
+        neg_sent_thresh = st.slider("Negative Sentiment Alert (%)", 30, 70, 45, 5) / 100.0
+
+        st.markdown("#### **🤖 Prediction Model**")
+        selected_model = st.selectbox(
+            "Active Predictor",
+            [
+                "Hybrid AI (LLM Reasoner + Random Forest)",
+                "Random Forest (Ensemble ML)",
+                "AI LLM Predictive Reasoner",
+                "Gradient Boosting (Boosted Trees ML)",
+                "Logistic Regression (Linear ML)",
+                "Dummy Classifier (Baseline ML)"
+            ],
+            index=0
+        )
+        model_code = (
+            "hybrid" if "Hybrid AI" in selected_model else (
+                "llm" if "AI LLM" in selected_model else (
+                    "rf" if "Random Forest" in selected_model else (
+                        "gb" if "Gradient Boosting" in selected_model else (
+                            "logreg" if "Logistic" in selected_model else "dummy"
+                        )
                     )
                 )
             )
         )
-    )
 
-    st.markdown("---")
-    st.markdown("#### **🧠 AI LLM Engine**")
-    llm_provider_choice = st.selectbox(
-        "LLM Provider",
-        [
-            "Auto-Detect (Best Available)",
-            "Groq (Llama 3.3 70B)",
-            "OpenAI (GPT-4o Mini)",
-            "Google Gemini (1.5 Flash)",
-            "Local Ollama (Offline Llama 3)",
-            "Local AI Reasoner (Zero-Key Simulation)"
-        ],
-        index=0,
-        help="Select LLM provider for generative reasoning, root-cause analysis, and executive briefings."
-    )
-    provider_code_map = {
-        "Auto-Detect (Best Available)": "auto",
-        "Groq (Llama 3.3 70B)": "groq",
-        "OpenAI (GPT-4o Mini)": "openai",
-        "Google Gemini (1.5 Flash)": "gemini",
-        "Local Ollama (Offline Llama 3)": "ollama",
-        "Local AI Reasoner (Zero-Key Simulation)": "simulation"
-    }
-    provider_code = provider_code_map[llm_provider_choice]
-    custom_api_key = st.text_input(
-        "API Key (Optional)",
-        type="password",
-        placeholder="Enter Groq / OpenAI / Gemini Key...",
-        help="Leave blank to use environment variables or local offline simulation reasoner."
-    )
-    llm_inst = get_llm_engine(provider=provider_code, api_key=custom_api_key.strip() if custom_api_key.strip() else None)
-    prov_info = llm_inst.get_active_provider_info()
+        st.markdown("---")
+        st.markdown("#### **🧠 AI LLM Engine**")
+        llm_provider_choice = st.selectbox(
+            "LLM Provider",
+            [
+                "Auto-Detect (Best Available)",
+                "Groq (Llama 3.3 70B)",
+                "OpenAI (GPT-4o Mini)",
+                "Google Gemini (1.5 Flash)",
+                "Local Ollama (Offline Llama 3)",
+                "Local AI Reasoner (Zero-Key Simulation)"
+            ],
+            index=0,
+            help="Select LLM provider for generative reasoning, root-cause analysis, and executive briefings."
+        )
+        provider_code_map = {
+            "Auto-Detect (Best Available)": "auto",
+            "Groq (Llama 3.3 70B)": "groq",
+            "OpenAI (GPT-4o Mini)": "openai",
+            "Google Gemini (1.5 Flash)": "gemini",
+            "Local Ollama (Offline Llama 3)": "ollama",
+            "Local AI Reasoner (Zero-Key Simulation)": "simulation"
+        }
+        provider_code = provider_code_map[llm_provider_choice]
+        custom_api_key = st.text_input(
+            "API Key (Optional)",
+            type="password",
+            placeholder="Enter Groq / OpenAI / Gemini Key...",
+            help="Leave blank to use environment variables or local offline simulation reasoner."
+        )
+        llm_inst = get_llm_engine(provider=provider_code, api_key=custom_api_key.strip() if custom_api_key.strip() else None)
+        prov_info = llm_inst.get_active_provider_info()
 
-    if not prov_info["is_simulation"]:
+        if not prov_info["is_simulation"]:
+            st.markdown(
+                f"""
+                <div style="background: rgba(16, 185, 129, 0.15); border: 1px solid #10B981; border-radius: 6px; padding: 6px 10px; font-size: 0.75rem; color: #34D399; margin-top: 4px;">
+                    🟢 <b>Active:</b> {prov_info['name']}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        else:
+            st.markdown(
+                f"""
+                <div style="background: rgba(245, 158, 11, 0.15); border: 1px solid #F59E0B; border-radius: 6px; padding: 6px 10px; font-size: 0.75rem; color: #FCD34D; margin-top: 4px;">
+                    🟡 <b>Mode:</b> {prov_info['name']}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        st.markdown("---")
         st.markdown(
             f"""
-            <div style="background: rgba(16, 185, 129, 0.15); border: 1px solid #10B981; border-radius: 6px; padding: 6px 10px; font-size: 0.75rem; color: #34D399; margin-top: 4px;">
-                🟢 <b>Active:</b> {prov_info['name']}
+            <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid #10B981; border-radius: 8px; padding: 10px; font-size: 0.8rem;">
+                <b>🔒 Privacy Safeguards Active</b><br>
+                • Minimum group size: <b>k ≥ {MIN_K_ANONYMITY}</b><br>
+                • Strict Team-Level ML Only<br>
+                • Zero PII Storage
             </div>
             """,
             unsafe_allow_html=True
         )
-    else:
-        st.markdown(
-            f"""
-            <div style="background: rgba(245, 158, 11, 0.15); border: 1px solid #F59E0B; border-radius: 6px; padding: 6px 10px; font-size: 0.75rem; color: #FCD34D; margin-top: 4px;">
-                🟡 <b>Mode:</b> {prov_info['name']}
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
 
-    st.markdown("---")
-    st.markdown(
-        f"""
-        <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid #10B981; border-radius: 8px; padding: 10px; font-size: 0.8rem;">
-            <b>🔒 Privacy Safeguards Active</b><br>
-            • Minimum group size: <b>k ≥ {MIN_K_ANONYMITY}</b><br>
-            • Strict Team-Level ML Only<br>
-            • Zero PII Storage
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-# Instantiate RAG framework with sidebar thresholds
+# Instantiate RAG framework with active thresholds
 rag_framework = RAGRiskFramework(
     red_prob_threshold=red_thresh,
     amber_prob_threshold=amber_thresh,
@@ -298,6 +359,366 @@ rag_framework = RAGRiskFramework(
 )
 df_rag_evaluated = rag_framework.evaluate_all_teams(df_teams, model_type=model_code)
 
+
+# ==============================================================================
+# ROUTER: EMPLOYEE SAFE HARBOR PORTAL VS HR & LEADERSHIP SUITE
+# ==============================================================================
+if portal_role == "👤 Employee Portal":
+    if emp_menu == "📝 Submit Anonymous Feedback":
+        st.markdown(
+            """
+            <div style="background: linear-gradient(135deg, rgba(30, 41, 59, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%);
+                        border: 1.5px solid rgba(16, 185, 129, 0.4); border-radius: 14px; padding: 1.5rem 1.8rem; margin-bottom: 1.5rem;
+                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                    <div>
+                        <span style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: #34D399; font-weight: 800;">
+                            🛡️ ECHO GUARD ANONYMOUS EMPLOYEE SAFE HARBOR
+                        </span>
+                        <h1 style="color: #FFFFFF; margin: 4px 0 6px 0; font-size: 2.1rem; font-weight: 800;">
+                            Submit Anonymous Employee Feedback
+                        </h1>
+                        <p style="color: #94A3B8; margin: 0; font-size: 0.95rem; max-width: 800px; line-height: 1.5;">
+                            Speak your mind openly and without fear. Your feedback is processed through real-time privacy cloaking 
+                            so your name, email, employee ID, and contact details are permanently scrubbed before reaching HR or leadership.
+                        </p>
+                    </div>
+                    <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid #10B981; border-radius: 10px; padding: 8px 14px; text-align: center;">
+                        <span style="color: #10B981; font-size: 1.4rem;">🔒</span>
+                        <div style="color: #34D399; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; margin-top: 2px;">Zero-PII Storage</div>
+                        <div style="color: #A7F3D0; font-size: 0.68rem;">100% Identity Guarded</div>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Three trust pill banners
+        c_tr1, c_tr2, c_tr3 = st.columns(3)
+        with c_tr1:
+            st.markdown(
+                """
+                <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 10px 14px; font-size: 0.8rem; color: #E2E8F0;">
+                    🛡️ <b>Anti-Retaliation Guard:</b> Non-retaliation policy strictly enforced under corporate whistleblower governance.
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        with c_tr2:
+            st.markdown(
+                f"""
+                <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 10px 14px; font-size: 0.8rem; color: #E2E8F0;">
+                    👥 <b>k-Anonymity (k ≥ {MIN_K_ANONYMITY}):</b> Data is only shared in aggregated team pulses with at least 5 people.
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        with c_tr3:
+            st.markdown(
+                """
+                <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 10px 14px; font-size: 0.8rem; color: #E2E8F0;">
+                    🚫 <b>No Surveillance:</b> No IP addresses, device signatures, or browser fingerprints are ever logged.
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        st.markdown("<div style='margin-bottom: 1.25rem;'></div>", unsafe_allow_html=True)
+
+        # Submission Confirmation Receipt
+        if st.session_state.get("emp_submitted_receipt"):
+            receipt = st.session_state["emp_submitted_receipt"]
+            st.markdown(
+                f"""
+                <div style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.22) 0%, rgba(15, 23, 42, 0.98) 100%);
+                            border: 2px solid #10B981; border-radius: 14px; padding: 1.4rem 1.6rem; margin-bottom: 1.5rem;
+                            box-shadow: 0 0 25px rgba(16, 185, 129, 0.25);">
+                    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 0.75rem;">
+                        <span style="font-size: 2.4rem;">🎉</span>
+                        <div>
+                            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #6EE7B7; font-weight: 800;">
+                                SUBMISSION SUCCESSFUL & CONFIDENTIALITY GUARANTEED
+                            </span>
+                            <h3 style="color: #FFFFFF; margin: 2px 0 0 0; font-size: 1.35rem; font-weight: 800;">
+                                Your Feedback Has Been Anonymously Recorded
+                            </h3>
+                        </div>
+                    </div>
+                    <div style="background: rgba(0,0,0,0.4); border-left: 3px solid #10B981; padding: 10px 14px; border-radius: 6px; margin-bottom: 12px; font-size: 0.88rem; color: #E2E8F0;">
+                        <b>🔒 Anonymized Record Forwarded to HR Pulse (Zero Personal Names):</b><br>
+                        <i>"{receipt['scrubbed_text']}"</i>
+                    </div>
+                    <div style="display: flex; gap: 12px; flex-wrap: wrap; font-size: 0.82rem; color: #94A3B8;">
+                        <span><b>Anonymous Receipt Token:</b> <code style="color: #6EE7B7; background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px;">{receipt['id']}</code></span>
+                        <span>•</span>
+                        <span><b>Department:</b> {receipt['dept']}</span>
+                        <span>•</span>
+                        <span><b>Target Team:</b> {receipt['team']}</span>
+                        <span>•</span>
+                        <span><b>Submitted:</b> {receipt['time']}</span>
+                    </div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+            col_rec1, col_rec2 = st.columns([1, 3])
+            with col_rec1:
+                if st.button("📝 Submit Another Feedback", use_container_width=True, key="btn_emp_sub_another"):
+                    st.session_state["emp_submitted_receipt"] = None
+                    st.session_state["emp_feedback_input"] = ""
+                    st.rerun()
+            with col_rec2:
+                if st.button("✖️ Dismiss Confirmation", use_container_width=True, key="btn_emp_dismiss_rec"):
+                    st.session_state["emp_submitted_receipt"] = None
+                    st.rerun()
+
+        # Step 1: Affiliation
+        st.markdown("#### **1. Select Your Affiliation (Aggregated Team Pulse)**")
+        col_emp_dept, col_emp_team = st.columns(2)
+        with col_emp_dept:
+            available_depts = sorted(df_feedback["department"].dropna().unique())
+            emp_dept = st.selectbox("Your Department", available_depts, index=0, key="emp_dept_select")
+        with col_emp_team:
+            available_teams = sorted(df_feedback[df_feedback["department"] == emp_dept]["team_id"].dropna().unique())
+            emp_team = st.selectbox("Your Team / Group ID", available_teams, index=0, key="emp_team_select")
+
+        # Step 2: Privacy Cloaking Style
+        st.markdown("#### **2. Privacy Redaction Cloaking Style**")
+        emp_cloaking_style = st.radio(
+            "Select how colleague names or personal references should be redacted before reaching HR:",
+            [
+                "👤 Natural Colleague Cloaking (e.g. 'Ram is bad' becomes 'The colleague is bad')",
+                "🏷️ Cryptographic Safeguard Tokens (e.g. 'Ram is bad' becomes '[NAME] is bad')"
+            ],
+            index=0,
+            key="emp_cloak_style_radio"
+        )
+        is_natural_emp = "Natural Colleague" in emp_cloaking_style
+
+        # Step 3: Write Feedback
+        st.markdown("#### **3. Write Your Feedback**")
+        def set_emp_quick_text(txt: str):
+            st.session_state["emp_feedback_input"] = txt
+
+        emp_text = st.text_area(
+            "Share your thoughts, suggestions, workload concerns, or management feedback freely:",
+            value=st.session_state.get("emp_feedback_input", ""),
+            placeholder="Type your feedback here freely... e.g. 'Ram is bad and team lead does not listen' or 'Great support from my team lead and collaborative sprint culture'...",
+            height=130,
+            key="emp_text_area_input"
+        )
+
+        st.caption("💡 *Quick Topic Starters (Click any chip to populate example feedback):*")
+        c1, c2, c3, c4, c5 = st.columns(5)
+        with c1:
+            st.button("🌟 Great Culture", on_click=set_emp_quick_text, args=("Great support from my team lead and manager. I really enjoy the collaborative culture!",), use_container_width=True, key="emp_chip1")
+        with c2:
+            st.button("💸 Pay & Bonuses", on_click=set_emp_quick_text, args=("Salary is too low for the cost of living and we received no bonuses this year.",), use_container_width=True, key="emp_chip2")
+        with c3:
+            st.button("💔 Burnout", on_click=set_emp_quick_text, args=("Our manager does not care about team burnout and micromanages all daily tasks.",), use_container_width=True, key="emp_chip3")
+        with c4:
+            st.button("⚙️ Slow Tools", on_click=set_emp_quick_text, args=("The internal development tools are completely outdated, slow, and frustrating to use.",), use_container_width=True, key="emp_chip4")
+        with c5:
+            st.button("🚨 Misconduct", on_click=set_emp_quick_text, args=("A senior director subjected me to inappropriate treatment and threatened retaliation.",), use_container_width=True, key="emp_chip5")
+
+        # Step 4: Real-time Privacy Shield Preview
+        active_emp_text = emp_text.strip()
+        if active_emp_text:
+            live_scrubbed = anonymizer_engine.anonymize(active_emp_text, natural=is_natural_emp)
+            st.markdown(
+                f"""
+                <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid #10B981; border-radius: 10px; padding: 12px 16px; margin-top: 14px; margin-bottom: 14px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                        <span style="font-size: 0.78rem; text-transform: uppercase; color: #34D399; font-weight: 700;">
+                            🛡️ Live Identity Protection Shield (What HR Will Receive)
+                        </span>
+                        <span style="background: rgba(16, 185, 129, 0.2); color: #A7F3D0; font-size: 0.72rem; padding: 2px 8px; border-radius: 12px; font-weight: 600;">
+                            ✓ 100% PII-Scrubbed
+                        </span>
+                    </div>
+                    <div style="background: rgba(0, 0, 0, 0.4); border-left: 3px solid #10B981; padding: 8px 12px; border-radius: 6px; font-size: 0.92rem; color: #FFFFFF; font-style: italic;">
+                        "{live_scrubbed['anonymised_text']}"
+                    </div>
+                    <div style="color: #6EE7B7; font-size: 0.75rem; margin-top: 6px;">
+                        🔒 All personal names (e.g. Ram, Alex), phone numbers, email addresses, and employee badge IDs are scrubbed automatically before saving.
+                    </div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        col_sub1, col_sub2 = st.columns([2.5, 1])
+        with col_sub1:
+            submit_emp_btn = st.button("📤 Submit Anonymous Feedback", type="primary", use_container_width=True, key="btn_emp_submit_final")
+        with col_sub2:
+            st.button("🧹 Clear Box", on_click=set_emp_quick_text, args=("",), use_container_width=True, key="btn_emp_clear_final")
+
+        if submit_emp_btn:
+            if not active_emp_text:
+                st.warning("⚠️ Please enter feedback text before submitting.")
+            else:
+                anon_res = anonymizer_engine.anonymize(active_emp_text, natural=is_natural_emp)
+                clf_res = classifier_engine.classify(active_emp_text, anon_res["anonymised_text"])
+                new_id = f"FB-CUSTOM-{len(df_feedback) + 1}"
+                new_rec = {
+                    "feedback_id": new_id,
+                    "department": emp_dept,
+                    "team_id": emp_team,
+                    "theme": clf_res["theme"],
+                    "sentiment": clf_res["sentiment"],
+                    "severity": clf_res["severity"],
+                    "privacy_risk": anon_res["privacy_risk"],
+                    "escalation_status": clf_res["escalation_status"],
+                    "feedback_text": anon_res["anonymised_text"],  # 100% Zero-PII stored!
+                    "anonymised_text": anon_res["anonymised_text"],
+                    "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                }
+                st.session_state["custom_feedbacks"].insert(0, new_rec)
+
+                # Pre & Post metrics snapshot for HR Suite
+                cur_slice = df_teams[df_teams["team_id"] == emp_team]
+                pre_t = cur_slice.iloc[0].to_dict() if not cur_slice.empty else {}
+                df_new_fbs = pd.concat([pd.DataFrame([new_rec]), df_feedback], ignore_index=True)
+                df_new_tms = compute_live_team_features(df_new_fbs, df_teams_base)
+                post_slice = df_new_tms[df_new_tms["team_id"] == emp_team]
+                post_t = post_slice.iloc[0].to_dict() if not post_slice.empty else {}
+
+                st.session_state["last_submission_impact"] = {
+                    "feedback_id": new_id,
+                    "team_id": emp_team,
+                    "department": emp_dept,
+                    "sentiment": clf_res["sentiment"],
+                    "theme": clf_res["theme"],
+                    "severity": clf_res["severity"],
+                    "raw_text": active_emp_text,
+                    "anonymised_text": anon_res["anonymised_text"],
+                    "timestamp": new_rec["timestamp"],
+                    "pre_sentiment": pre_t.get("avg_sentiment_score", 0.0),
+                    "post_sentiment": post_t.get("avg_sentiment_score", 0.0),
+                    "pre_neg_pct": pre_t.get("pct_negative", 0.0),
+                    "post_neg_pct": post_t.get("pct_negative", 0.0),
+                    "pre_pos_pct": pre_t.get("pct_positive", 0.0),
+                    "post_pos_pct": post_t.get("pct_positive", 0.0),
+                    "pre_risk": pre_t.get("continuous_risk_score", 0.0),
+                    "post_risk": post_t.get("continuous_risk_score", 0.0),
+                    "pre_count": int(pre_t.get("feedback_count", 0)),
+                    "post_count": int(post_t.get("feedback_count", 0)),
+                    "pre_total": len(df_feedback),
+                    "post_total": len(df_new_fbs),
+                    "valence_score": clf_res.get("valence_score", 0.0)
+                }
+                st.session_state["emp_submitted_receipt"] = {
+                    "id": new_id,
+                    "dept": emp_dept,
+                    "team": emp_team,
+                    "scrubbed_text": anon_res["anonymised_text"],
+                    "time": new_rec["timestamp"]
+                }
+                st.session_state["emp_feedback_input"] = ""
+                st.session_state["feedback_just_submitted"] = True
+                st.balloons()
+                st.rerun()
+
+        # Switch to HR suite link at the bottom
+        st.markdown("---")
+        st.markdown(
+            """
+            <div style="background: rgba(15, 23, 42, 0.4); border: 1px dashed rgba(255,255,255,0.15); border-radius: 8px; padding: 12px 16px; margin-top: 1.5rem;">
+                <div style="font-size: 0.85rem; color: #94A3B8;">
+                    👔 <b>HR Administrator or Leader?</b> Switch to the full analytics, RAG risk matrix, and governance suite.
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        if st.button("Switch to HR & Leadership Suite ➔", key="btn_switch_to_hr_bottom"):
+            st.session_state["portal_role"] = "🏢 HR & Leadership Suite"
+            st.rerun()
+
+    elif emp_menu == "🛡️ Employee Privacy & Whistleblower Rights":
+        st.markdown(
+            """
+            <div class="main-header">
+                <h1 style="color: #FFFFFF; margin: 0; font-size: 2rem; font-weight: 800;">
+                    🛡️ Employee Privacy, Safety & Whistleblower Rights
+                </h1>
+                <p style="color: #94A3B8; margin: 6px 0 0 0; font-size: 1rem;">
+                    Our cryptographic, non-retaliation, and anonymization commitments to every employee.
+                </p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+        ep1, ep2 = st.columns(2)
+        with ep1:
+            st.markdown(
+                f"""
+                <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 10px; padding: 1.25rem; margin-bottom: 1rem;">
+                    <h3 style="color: #34D399; margin: 0 0 8px 0; font-size: 1.15rem;">🔒 Zero-PII Redaction Guarantee</h3>
+                    <p style="color: #CBD5E1; font-size: 0.9rem; line-height: 1.5;">
+                        EchoGuard AI employs advanced Natural Language Processing and Named Entity Recognition (NER) to detect and redact all:
+                    </p>
+                    <ul style="color: #94A3B8; font-size: 0.85rem; margin: 0 0 10px 18px;">
+                        <li>Personal names (e.g. "Ram", "Alex Johnson", "Pooja")</li>
+                        <li>Phone numbers and personal emails</li>
+                        <li>Employee badge numbers (e.g. EMP-4821)</li>
+                        <li>Confidential internal project codes</li>
+                    </ul>
+                    <p style="color: #34D399; font-size: 0.85rem; font-weight: 600; margin: 0;">
+                        Raw un-anonymized text is never written to disk or database.
+                    </p>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        with ep2:
+            st.markdown(
+                f"""
+                <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 10px; padding: 1.25rem; margin-bottom: 1rem;">
+                    <h3 style="color: #A5B4FC; margin: 0 0 8px 0; font-size: 1.15rem;">⚖️ Strict Whistleblower Protection</h3>
+                    <p style="color: #CBD5E1; font-size: 0.9rem; line-height: 1.5;">
+                        Retaliation against any employee reporting workplace concerns is illegal and strictly prohibited by company policy.
+                    </p>
+                    <ul style="color: #94A3B8; font-size: 0.85rem; margin: 0 0 10px 18px;">
+                        <li><b>Automatic Escalation:</b> Severe harassment, ethical fraud, or safety violations are automatically flagged for independent confidential compliance review.</li>
+                        <li><b>k-Anonymity (k ≥ {MIN_K_ANONYMITY}):</b> HR only views aggregate sentiment for teams with at least 5 people.</li>
+                        <li><b>Zero Surveillance:</b> No IP logging, no device tracking, and no browser cookies tied to feedback.</li>
+                    </ul>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+        if st.button("📝 Return to Submit Feedback", type="primary"):
+            st.session_state["emp_nav_radio"] = "📝 Submit Anonymous Feedback"
+            st.rerun()
+
+    # Employee portal execution ends here! Prevent any HR dashboards from rendering for employees.
+    st.stop()
+
+# ==============================================================================
+# HR & LEADERSHIP INTELLIGENCE SUITE
+# ==============================================================================
+# Top bar showing HR mode status + quick switcher to Employee portal
+col_hr_banner, col_hr_sw = st.columns([3.5, 1.5])
+with col_hr_banner:
+    st.markdown(
+        """
+        <div style="background: rgba(99, 102, 241, 0.12); border: 1px solid rgba(99, 102, 241, 0.35); border-radius: 8px; padding: 6px 14px; font-size: 0.82rem; color: #C7D2FE;">
+            🏢 <b>HR & Executive Mode Active:</b> You are viewing confidential organizational health analytics.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+with col_hr_sw:
+    if st.button("👤 Switch to Employee Portal ➔", key="btn_hr_to_emp_top", use_container_width=True):
+        st.session_state["portal_role"] = "👤 Employee Portal"
+        st.rerun()
+
+st.markdown("<div style='margin-bottom: 0.5rem;'></div>", unsafe_allow_html=True)
 
 # ==============================================================================
 # PAGE 1: EXECUTIVE OVERVIEW
@@ -763,17 +1184,17 @@ elif menu == "🔍 Anonymised Feedback Explorer":
 
 
 # ==============================================================================
-# PAGE 4: AI PLAYGROUND & PRIVACY SANDBOX
+# PAGE 4: HR AI TESTING & REDACTION SANDBOX
 # ==============================================================================
-elif menu == "🧪 AI Playground & Privacy Sandbox":
+elif menu in ["🧪 AI Testing & Redaction Sandbox", "🧪 AI Playground & Privacy Sandbox"]:
     st.markdown(
         """
         <div class="main-header">
             <h1 style="color: #FFFFFF; margin: 0; font-size: 2rem; font-weight: 800;">
-                🧪 AI Classification & Privacy Redaction Sandbox
+                🧪 HR & Compliance AI Testing & Redaction Sandbox
             </h1>
             <p style="color: #94A3B8; margin: 6px 0 0 0; font-size: 1rem;">
-                Test real-time PII anonymization, multi-target classification, safety overrides, and prompt-injection defenses.
+                HR & Compliance Testing Lab: Test real-time PII anonymization, multi-target classification, safety overrides, RAG policies, and prompt-injection defenses.
             </p>
         </div>
         """,
@@ -1267,6 +1688,8 @@ elif menu == "🧪 AI Playground & Privacy Sandbox":
         st.info("💡 **Ready for Input:** Type any custom employee feedback above or select a preset scenario to see real-time classification, PII scrubbing, and sentiment analysis.")
         st.stop()
 
+    st.markdown("---")
+    st.markdown("### **🎯 AI Analysis & Redaction Results:**")
 
     # Live Real-Time Anonymization
     anon_result = anonymizer_engine.anonymize(input_text, natural=is_natural)
@@ -1405,6 +1828,57 @@ elif menu == "🧪 AI Playground & Privacy Sandbox":
     with b4:
         priv_color = "🔴 " if anon_result['privacy_risk'] == "High" else ("🟠 " if anon_result['privacy_risk'] == "Medium" else "🟢 ")
         st.metric("Privacy Risk", f"{priv_color}{anon_result['privacy_risk']}", f"{len(anon_result['entities_found'])} PII scrubbed")
+
+    # Live Projected Team Attrition Impact Preview
+    temp_proj_rec = {
+        "feedback_id": "PREVIEW",
+        "department": selected_sub_dept,
+        "team_id": selected_sub_team,
+        "theme": clf_result["theme"],
+        "sentiment": clf_result["sentiment"],
+        "severity": clf_result["severity"],
+        "privacy_risk": anon_result["privacy_risk"],
+        "escalation_status": clf_result["escalation_status"],
+        "feedback_text": anon_result["anonymised_text"],
+        "anonymised_text": anon_result["anonymised_text"],
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
+    df_proj_fbs = pd.concat([pd.DataFrame([temp_proj_rec]), df_feedback], ignore_index=True)
+    df_proj_tms = compute_live_team_features(df_proj_fbs, df_teams_base)
+    proj_slice = df_proj_tms[df_proj_tms["team_id"] == selected_sub_team]
+    proj_t = proj_slice.iloc[0].to_dict() if not proj_slice.empty else {}
+
+    proj_risk = proj_t.get("continuous_risk_score", cur_t["continuous_risk_score"])
+    proj_risk_delta = proj_risk - cur_t["continuous_risk_score"]
+    proj_sent = proj_t.get("avg_sentiment_score", cur_t["avg_sentiment_score"])
+    proj_sent_delta = proj_sent - cur_t["avg_sentiment_score"]
+
+    p_risk_color = "#EF4444" if proj_risk_delta > 0.001 else ("#10B981" if proj_risk_delta < -0.001 else "#94A3B8")
+    p_risk_badge = f"{proj_risk_delta:+.2%}" if abs(proj_risk_delta) >= 0.0001 else "±0.0%"
+    p_trend_msg = "🚨 Projected to Increase Flight Risk" if proj_risk_delta > 0.001 else ("🛡️ Projected to Reduce Flight Risk" if proj_risk_delta < -0.001 else "⚪ Projected Impact: Neutral")
+
+    st.markdown(
+        f"""
+        <div style="background: rgba(30, 41, 59, 0.6); border: 1.5px solid rgba(255, 255, 255, 0.12); border-radius: 10px; padding: 10px 16px; margin-top: 10px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+            <div>
+                <span style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: #94A3B8; font-weight: 700;">
+                    📈 PREDICTED TARGET TEAM ATTRITION IMPACT ({selected_sub_team})
+                </span>
+                <div style="color: #F8FAFC; font-size: 0.95rem; font-weight: 600; margin-top: 2px;">
+                    Current Risk: <b>{cur_t['continuous_risk_score']:.1%}</b> ➔ Projected Risk: <b>{proj_risk:.1%}</b> 
+                    <span style="color: {p_risk_color}; font-weight: 800; margin-left: 6px;">({p_risk_badge})</span>
+                </div>
+            </div>
+            <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                <span style="color: {p_risk_color}; font-size: 0.85rem; font-weight: 700;">{p_trend_msg}</span>
+                <span style="background: rgba(255,255,255,0.06); padding: 4px 10px; border-radius: 6px; font-size: 0.78rem; color: #CBD5E1;">
+                    Team Sentiment: {proj_sent:+.2f} ({proj_sent_delta:+.2f})
+                </span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     # Redaction Comparison
     st.markdown("#### **🛡️ PII Redaction Live Comparison**")
