@@ -1,6 +1,21 @@
-streamlit>=1.30.0
-groq>=0.10.0
-python-dotenv>=1.0.0
+# Core Application and Web UI
+streamlit>=1.35.0
 pandas>=2.0.0
-altair>=5.0.0
-plotly
+numpy>=1.24.0
+
+# Machine Learning and Data Science
+scikit-learn>=1.3.0
+scipy>=1.10.0
+joblib>=1.3.0
+
+# Visualizations
+plotly>=5.18.0
+matplotlib>=3.8.0
+
+# Environment and Utilities
+python-dotenv>=1.0.0
+pytest>=8.0.0
+
+# Optional LLM API Clients
+groq>=0.9.0
+openai>=1.20.0
