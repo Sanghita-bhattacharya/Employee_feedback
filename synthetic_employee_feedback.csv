@@ -1,0 +1,1005 @@
+feedback_id,team_id,submitted_date,comment,synthetic_topic_for_testing
+FB0001,Team_09,2026-08-20 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0002,Team_05,2026-07-11 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0003,Team_16,2026-09-22 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0004,Team_17,2026-08-22 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0005,Team_19,2026-09-29 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0006,Team_11,2026-08-21 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0007,Team_12,2026-10-11 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0008,Team_06,2026-09-12 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0009,Team_08,2026-07-08 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0010,Team_14,2026-09-29 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0011,Team_10,2026-08-27 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0012,Team_15,2026-09-18 00:00:00,My workload has increased and I often need to work late.,workload
+FB0013,Team_20,2026-08-17 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0014,Team_02,2026-08-24 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0015,Team_03,2026-09-18 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0016,Team_12,2026-09-16 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0017,Team_17,2026-09-12 00:00:00,The salary revision process is unclear.,compensation
+FB0018,Team_16,2026-10-05 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0019,Team_08,2026-10-13 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0020,Team_13,2026-07-17 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0021,Team_01,2026-10-01 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0022,Team_10,2026-09-20 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0023,Team_10,2026-08-28 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0024,Team_05,2026-07-14 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0025,Team_10,2026-10-08 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0026,Team_12,2026-09-12 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0027,Team_12,2026-10-01 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0028,Team_07,2026-08-20 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0029,Team_09,2026-10-24 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0030,Team_17,2026-07-07 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0031,Team_06,2026-08-20 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0032,Team_11,2026-09-29 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0033,Team_09,2026-08-18 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0034,Team_07,2026-07-03 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0035,Team_15,2026-09-19 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0036,Team_19,2026-08-28 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0037,Team_14,2026-08-27 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0038,Team_05,2026-08-04 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0039,Team_08,2026-10-20 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0040,Team_07,2026-10-20 00:00:00,My workload has increased and I often need to work late.,workload
+FB0041,Team_14,2026-08-23 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0042,Team_06,2026-09-29 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0043,Team_09,2026-09-24 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0044,Team_09,2026-10-13 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0045,Team_05,2026-09-22 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0046,Team_11,2026-07-21 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0047,Team_16,2026-08-27 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0048,Team_07,2026-09-11 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0049,Team_13,2026-09-11 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0050,Team_16,2026-07-05 00:00:00,The salary revision process is unclear.,compensation
+FB0051,Team_07,2026-09-15 00:00:00,The salary revision process is unclear.,compensation
+FB0052,Team_04,2026-09-07 00:00:00,My workload has increased and I often need to work late.,workload
+FB0053,Team_19,2026-10-23 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0054,Team_13,2026-09-07 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0055,Team_20,2026-08-18 00:00:00,My workload has increased and I often need to work late.,workload
+FB0056,Team_02,2026-07-10 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0057,Team_10,2026-08-21 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0058,Team_11,2026-08-24 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0059,Team_07,2026-09-02 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0060,Team_06,2026-07-03 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0061,Team_18,2026-09-01 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0062,Team_07,2026-07-13 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0063,Team_06,2026-07-29 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0064,Team_19,2026-09-28 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0065,Team_19,2026-10-22 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0066,Team_03,2026-09-03 00:00:00,My workload has increased and I often need to work late.,workload
+FB0067,Team_17,2026-08-23 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0068,Team_05,2026-10-19 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0069,Team_11,2026-10-14 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0070,Team_04,2026-07-20 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0071,Team_09,2026-10-21 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0072,Team_02,2026-09-25 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0073,Team_18,2026-07-14 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0074,Team_01,2026-09-28 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0075,Team_08,2026-10-11 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0076,Team_08,2026-07-31 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0077,Team_05,2026-07-04 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0078,Team_18,2026-07-18 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0079,Team_12,2026-09-22 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0080,Team_06,2026-08-05 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0081,Team_20,2026-08-27 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0082,Team_19,2026-07-02 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0083,Team_03,2026-07-03 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0084,Team_06,2026-08-28 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0085,Team_12,2026-08-18 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0086,Team_01,2026-09-21 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0087,Team_03,2026-08-20 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0088,Team_02,2026-08-16 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0089,Team_10,2026-08-28 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0090,Team_11,2026-08-03 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0091,Team_01,2026-09-08 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0092,Team_17,2026-07-13 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0093,Team_09,2026-07-01 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0094,Team_04,2026-10-17 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0095,Team_10,2026-09-12 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0096,Team_14,2026-07-13 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0097,Team_16,2026-08-23 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0098,Team_16,2026-09-09 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0099,Team_13,2026-08-03 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0100,Team_19,2026-08-19 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0101,Team_18,2026-08-01 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0102,Team_06,2026-07-28 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0103,Team_17,2026-10-20 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0104,Team_10,2026-09-07 00:00:00,My workload has increased and I often need to work late.,workload
+FB0105,Team_17,2026-08-06 00:00:00,My workload has increased and I often need to work late.,workload
+FB0106,Team_19,2026-10-15 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0107,Team_06,2026-09-05 00:00:00,My workload has increased and I often need to work late.,workload
+FB0108,Team_11,2026-07-03 00:00:00,My workload has increased and I often need to work late.,workload
+FB0109,Team_04,2026-10-05 00:00:00,My workload has increased and I often need to work late.,workload
+FB0110,Team_11,2026-09-17 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0111,Team_07,2026-10-23 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0112,Team_16,2026-10-07 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0113,Team_04,2026-10-12 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0114,Team_13,2026-09-05 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0115,Team_01,2026-07-01 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0116,Team_18,2026-07-12 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0117,Team_02,2026-08-16 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0118,Team_17,2026-10-06 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0119,Team_20,2026-08-07 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0120,Team_13,2026-09-13 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0121,Team_03,2026-10-04 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0122,Team_20,2026-10-08 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0123,Team_08,2026-09-18 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0124,Team_02,2026-07-17 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0125,Team_09,2026-09-09 00:00:00,The salary revision process is unclear.,compensation
+FB0126,Team_11,2026-08-12 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0127,Team_08,2026-07-22 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0128,Team_16,2026-10-19 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0129,Team_10,2026-09-28 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0130,Team_20,2026-10-07 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0131,Team_17,2026-09-03 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0132,Team_02,2026-08-03 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0133,Team_05,2026-09-08 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0134,Team_19,2026-07-16 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0135,Team_02,2026-09-11 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0136,Team_11,2026-10-17 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0137,Team_20,2026-07-20 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0138,Team_09,2026-09-29 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0139,Team_19,2026-07-11 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0140,Team_02,2026-07-12 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0141,Team_04,2026-07-16 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0142,Team_10,2026-08-24 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0143,Team_16,2026-10-15 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0144,Team_05,2026-09-08 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0145,Team_03,2026-09-30 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0146,Team_10,2026-09-15 00:00:00,My workload has increased and I often need to work late.,workload
+FB0147,Team_16,2026-07-25 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0148,Team_15,2026-10-13 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0149,Team_06,2026-10-01 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0150,Team_07,2026-07-19 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0151,Team_19,2026-09-03 00:00:00,My workload has increased and I often need to work late.,workload
+FB0152,Team_03,2026-09-23 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0153,Team_19,2026-08-11 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0154,Team_03,2026-08-13 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0155,Team_15,2026-10-07 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0156,Team_06,2026-10-07 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0157,Team_03,2026-08-25 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0158,Team_11,2026-07-02 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0159,Team_17,2026-08-20 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0160,Team_07,2026-08-21 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0161,Team_19,2026-09-24 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0162,Team_08,2026-10-24 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0163,Team_06,2026-09-29 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0164,Team_14,2026-10-24 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0165,Team_14,2026-09-11 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0166,Team_18,2026-07-04 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0167,Team_03,2026-10-08 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0168,Team_01,2026-10-14 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0169,Team_01,2026-07-01 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0170,Team_17,2026-09-09 00:00:00,My workload has increased and I often need to work late.,workload
+FB0171,Team_05,2026-08-03 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0172,Team_14,2026-10-01 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0173,Team_16,2026-10-07 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0174,Team_09,2026-07-05 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0175,Team_03,2026-09-19 00:00:00,My workload has increased and I often need to work late.,workload
+FB0176,Team_11,2026-09-12 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0177,Team_04,2026-10-03 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0178,Team_01,2026-08-01 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0179,Team_20,2026-09-25 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0180,Team_02,2026-09-10 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0181,Team_18,2026-08-23 00:00:00,My workload has increased and I often need to work late.,workload
+FB0182,Team_08,2026-07-11 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0183,Team_20,2026-09-07 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0184,Team_06,2026-09-12 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0185,Team_03,2026-07-29 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0186,Team_09,2026-09-06 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0187,Team_13,2026-08-21 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0188,Team_10,2026-08-28 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0189,Team_10,2026-07-16 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0190,Team_19,2026-08-02 00:00:00,My workload has increased and I often need to work late.,workload
+FB0191,Team_09,2026-09-30 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0192,Team_20,2026-08-17 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0193,Team_05,2026-10-19 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0194,Team_19,2026-07-05 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0195,Team_10,2026-07-18 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0196,Team_08,2026-09-04 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0197,Team_13,2026-09-07 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0198,Team_05,2026-09-30 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0199,Team_09,2026-08-31 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0200,Team_20,2026-08-29 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0201,Team_18,2026-07-15 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0202,Team_15,2026-08-30 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0203,Team_07,2026-08-30 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0204,Team_01,2026-07-14 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0205,Team_17,2026-10-04 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0206,Team_12,2026-08-08 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0207,Team_07,2026-07-08 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0208,Team_09,2026-10-04 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0209,Team_08,2026-09-21 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0210,Team_14,2026-07-14 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0211,Team_20,2026-07-09 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0212,Team_09,2026-08-06 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0213,Team_15,2026-09-26 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0214,Team_07,2026-07-02 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0215,Team_11,2026-08-24 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0216,Team_09,2026-10-06 00:00:00,My workload has increased and I often need to work late.,workload
+FB0217,Team_12,2026-07-24 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0218,Team_14,2026-07-17 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0219,Team_08,2026-08-08 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0220,Team_01,2026-08-20 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0221,Team_04,2026-08-05 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0222,Team_19,2026-07-06 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0223,Team_06,2026-07-23 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0224,Team_15,2026-08-27 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0225,Team_05,2026-10-06 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0226,Team_12,2026-09-14 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0227,Team_16,2026-09-10 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0228,Team_15,2026-09-01 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0229,Team_17,2026-08-08 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0230,Team_14,2026-10-07 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0231,Team_19,2026-08-05 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0232,Team_08,2026-08-09 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0233,Team_11,2026-08-29 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0234,Team_20,2026-10-15 00:00:00,The salary revision process is unclear.,compensation
+FB0235,Team_04,2026-07-01 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0236,Team_06,2026-07-03 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0237,Team_09,2026-08-18 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0238,Team_12,2026-07-01 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0239,Team_15,2026-08-30 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0240,Team_17,2026-09-10 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0241,Team_16,2026-09-14 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0242,Team_06,2026-10-20 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0243,Team_18,2026-07-09 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0244,Team_17,2026-08-21 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0245,Team_14,2026-08-18 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0246,Team_04,2026-08-03 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0247,Team_15,2026-09-12 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0248,Team_06,2026-07-05 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0249,Team_10,2026-10-10 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0250,Team_07,2026-10-22 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0251,Team_16,2026-09-14 00:00:00,The salary revision process is unclear.,compensation
+FB0252,Team_11,2026-10-02 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0253,Team_17,2026-07-28 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0254,Team_20,2026-07-06 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0255,Team_14,2026-09-27 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0256,Team_01,2026-10-09 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0257,Team_17,2026-08-14 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0258,Team_03,2026-09-11 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0259,Team_01,2026-10-19 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0260,Team_11,2026-07-04 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0261,Team_18,2026-09-09 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0262,Team_09,2026-10-07 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0263,Team_18,2026-10-13 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0264,Team_09,2026-08-16 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0265,Team_18,2026-10-09 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0266,Team_14,2026-08-09 00:00:00,My workload has increased and I often need to work late.,workload
+FB0267,Team_17,2026-08-31 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0268,Team_16,2026-08-17 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0269,Team_12,2026-07-22 00:00:00,My workload has increased and I often need to work late.,workload
+FB0270,Team_15,2026-09-08 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0271,Team_19,2026-07-26 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0272,Team_03,2026-08-12 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0273,Team_05,2026-09-03 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0274,Team_20,2026-09-12 00:00:00,The salary revision process is unclear.,compensation
+FB0275,Team_09,2026-10-11 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0276,Team_11,2026-09-01 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0277,Team_18,2026-08-14 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0278,Team_18,2026-10-14 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0279,Team_15,2026-07-26 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0280,Team_01,2026-08-04 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0281,Team_07,2026-07-21 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0282,Team_01,2026-08-02 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0283,Team_16,2026-09-06 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0284,Team_18,2026-08-25 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0285,Team_14,2026-07-30 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0286,Team_06,2026-09-30 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0287,Team_12,2026-08-07 00:00:00,My workload has increased and I often need to work late.,workload
+FB0288,Team_07,2026-10-19 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0289,Team_09,2026-07-17 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0290,Team_15,2026-07-12 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0291,Team_05,2026-09-05 00:00:00,My workload has increased and I often need to work late.,workload
+FB0292,Team_06,2026-08-29 00:00:00,The salary revision process is unclear.,compensation
+FB0293,Team_02,2026-10-07 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0294,Team_16,2026-07-08 00:00:00,The salary revision process is unclear.,compensation
+FB0295,Team_05,2026-10-22 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0296,Team_05,2026-08-18 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0297,Team_03,2026-08-18 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0298,Team_03,2026-08-28 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0299,Team_07,2026-08-17 00:00:00,The salary revision process is unclear.,compensation
+FB0300,Team_10,2026-10-06 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0301,Team_07,2026-09-08 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0302,Team_18,2026-09-18 00:00:00,The salary revision process is unclear.,compensation
+FB0303,Team_07,2026-07-29 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0304,Team_10,2026-08-23 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0305,Team_04,2026-09-09 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0306,Team_01,2026-10-15 00:00:00,My workload has increased and I often need to work late.,workload
+FB0307,Team_04,2026-10-03 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0308,Team_15,2026-09-10 00:00:00,My workload has increased and I often need to work late.,workload
+FB0309,Team_12,2026-07-27 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0310,Team_10,2026-07-01 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0311,Team_13,2026-08-23 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0312,Team_20,2026-10-08 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0313,Team_19,2026-09-03 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0314,Team_19,2026-10-23 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0315,Team_17,2026-07-18 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0316,Team_03,2026-09-08 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0317,Team_09,2026-09-12 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0318,Team_18,2026-07-04 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0319,Team_01,2026-09-20 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0320,Team_17,2026-09-21 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0321,Team_07,2026-07-15 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0322,Team_05,2026-07-15 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0323,Team_14,2026-07-07 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0324,Team_03,2026-10-24 00:00:00,The salary revision process is unclear.,compensation
+FB0325,Team_01,2026-09-03 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0326,Team_08,2026-07-15 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0327,Team_18,2026-08-18 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0328,Team_04,2026-08-01 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0329,Team_12,2026-07-16 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0330,Team_20,2026-10-06 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0331,Team_12,2026-07-19 00:00:00,My workload has increased and I often need to work late.,workload
+FB0332,Team_17,2026-07-30 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0333,Team_12,2026-08-30 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0334,Team_11,2026-09-23 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0335,Team_16,2026-09-22 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0336,Team_19,2026-08-29 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0337,Team_16,2026-08-11 00:00:00,My workload has increased and I often need to work late.,workload
+FB0338,Team_19,2026-07-11 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0339,Team_08,2026-07-19 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0340,Team_08,2026-10-20 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0341,Team_04,2026-10-15 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0342,Team_05,2026-07-25 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0343,Team_15,2026-09-13 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0344,Team_09,2026-08-29 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0345,Team_15,2026-08-31 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0346,Team_09,2026-07-13 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0347,Team_18,2026-10-08 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0348,Team_01,2026-07-24 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0349,Team_01,2026-07-25 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0350,Team_17,2026-09-22 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0351,Team_08,2026-09-11 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0352,Team_12,2026-09-06 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0353,Team_13,2026-09-05 00:00:00,The salary revision process is unclear.,compensation
+FB0354,Team_02,2026-07-23 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0355,Team_08,2026-09-28 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0356,Team_07,2026-09-18 00:00:00,My workload has increased and I often need to work late.,workload
+FB0357,Team_20,2026-09-23 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0358,Team_10,2026-09-26 00:00:00,My workload has increased and I often need to work late.,workload
+FB0359,Team_06,2026-08-25 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0360,Team_10,2026-08-30 00:00:00,My workload has increased and I often need to work late.,workload
+FB0361,Team_06,2026-07-15 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0362,Team_02,2026-10-20 00:00:00,The salary revision process is unclear.,compensation
+FB0363,Team_10,2026-10-11 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0364,Team_03,2026-08-04 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0365,Team_18,2026-09-28 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0366,Team_13,2026-10-22 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0367,Team_02,2026-08-17 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0368,Team_05,2026-09-03 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0369,Team_17,2026-09-25 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0370,Team_11,2026-07-20 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0371,Team_04,2026-07-13 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0372,Team_11,2026-09-24 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0373,Team_08,2026-10-05 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0374,Team_01,2026-09-28 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0375,Team_19,2026-08-17 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0376,Team_15,2026-07-12 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0377,Team_17,2026-09-10 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0378,Team_02,2026-08-22 00:00:00,The salary revision process is unclear.,compensation
+FB0379,Team_15,2026-07-16 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0380,Team_15,2026-08-09 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0381,Team_05,2026-08-08 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0382,Team_01,2026-10-18 00:00:00,My workload has increased and I often need to work late.,workload
+FB0383,Team_16,2026-08-08 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0384,Team_10,2026-08-31 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0385,Team_09,2026-08-11 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0386,Team_04,2026-10-19 00:00:00,My workload has increased and I often need to work late.,workload
+FB0387,Team_20,2026-07-18 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0388,Team_20,2026-07-25 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0389,Team_01,2026-08-14 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0390,Team_01,2026-08-07 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0391,Team_10,2026-10-21 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0392,Team_14,2026-07-22 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0393,Team_17,2026-10-03 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0394,Team_17,2026-07-18 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0395,Team_07,2026-09-03 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0396,Team_02,2026-10-01 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0397,Team_16,2026-09-12 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0398,Team_05,2026-10-16 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0399,Team_13,2026-09-26 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0400,Team_06,2026-08-02 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0401,Team_10,2026-10-01 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0402,Team_16,2026-09-12 00:00:00,My workload has increased and I often need to work late.,workload
+FB0403,Team_19,2026-09-14 00:00:00,The salary revision process is unclear.,compensation
+FB0404,Team_15,2026-08-23 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0405,Team_12,2026-07-09 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0406,Team_11,2026-08-09 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0407,Team_14,2026-10-23 00:00:00,My workload has increased and I often need to work late.,workload
+FB0408,Team_20,2026-08-22 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0409,Team_15,2026-08-02 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0410,Team_16,2026-09-15 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0411,Team_19,2026-09-21 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0412,Team_08,2026-08-16 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0413,Team_15,2026-09-07 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0414,Team_07,2026-08-18 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0415,Team_07,2026-09-19 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0416,Team_06,2026-07-15 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0417,Team_14,2026-07-16 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0418,Team_07,2026-07-03 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0419,Team_04,2026-07-19 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0420,Team_16,2026-07-29 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0421,Team_03,2026-10-10 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0422,Team_06,2026-08-02 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0423,Team_19,2026-09-25 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0424,Team_11,2026-09-20 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0425,Team_13,2026-09-25 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0426,Team_02,2026-08-07 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0427,Team_08,2026-08-21 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0428,Team_11,2026-08-16 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0429,Team_13,2026-08-12 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0430,Team_17,2026-10-08 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0431,Team_11,2026-09-20 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0432,Team_17,2026-08-08 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0433,Team_19,2026-10-19 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0434,Team_19,2026-10-22 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0435,Team_16,2026-07-28 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0436,Team_13,2026-08-22 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0437,Team_13,2026-09-12 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0438,Team_10,2026-09-06 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0439,Team_05,2026-09-15 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0440,Team_12,2026-07-20 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0441,Team_07,2026-08-22 00:00:00,My workload has increased and I often need to work late.,workload
+FB0442,Team_05,2026-07-17 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0443,Team_03,2026-07-14 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0444,Team_06,2026-07-23 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0445,Team_09,2026-08-16 00:00:00,My workload has increased and I often need to work late.,workload
+FB0446,Team_06,2026-10-22 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0447,Team_03,2026-09-07 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0448,Team_10,2026-10-11 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0449,Team_03,2026-09-21 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0450,Team_04,2026-08-19 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0451,Team_11,2026-08-04 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0452,Team_01,2026-10-24 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0453,Team_11,2026-07-13 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0454,Team_03,2026-10-22 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0455,Team_10,2026-07-21 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0456,Team_08,2026-09-16 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0457,Team_16,2026-09-18 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0458,Team_19,2026-08-18 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0459,Team_15,2026-09-21 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0460,Team_05,2026-10-12 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0461,Team_18,2026-10-15 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0462,Team_07,2026-08-31 00:00:00,My workload has increased and I often need to work late.,workload
+FB0463,Team_02,2026-07-27 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0464,Team_18,2026-09-28 00:00:00,The salary revision process is unclear.,compensation
+FB0465,Team_14,2026-09-25 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0466,Team_01,2026-07-18 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0467,Team_17,2026-09-03 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0468,Team_01,2026-07-11 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0469,Team_15,2026-09-07 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0470,Team_05,2026-08-28 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0471,Team_10,2026-08-05 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0472,Team_13,2026-07-25 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0473,Team_03,2026-09-27 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0474,Team_04,2026-07-21 00:00:00,My workload has increased and I often need to work late.,workload
+FB0475,Team_08,2026-09-20 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0476,Team_20,2026-09-14 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0477,Team_08,2026-07-22 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0478,Team_20,2026-10-10 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0479,Team_05,2026-08-24 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0480,Team_06,2026-09-24 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0481,Team_12,2026-08-14 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0482,Team_10,2026-07-04 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0483,Team_13,2026-08-13 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0484,Team_06,2026-08-18 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0485,Team_17,2026-08-10 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0486,Team_16,2026-08-01 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0487,Team_07,2026-08-22 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0488,Team_17,2026-07-08 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0489,Team_05,2026-09-08 00:00:00,My workload has increased and I often need to work late.,workload
+FB0490,Team_16,2026-07-20 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0491,Team_10,2026-10-05 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0492,Team_10,2026-07-07 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0493,Team_12,2026-08-23 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0494,Team_01,2026-07-25 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0495,Team_05,2026-07-13 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0496,Team_02,2026-07-16 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0497,Team_07,2026-08-09 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0498,Team_11,2026-08-11 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0499,Team_13,2026-08-18 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0500,Team_01,2026-10-16 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0501,Team_03,2026-07-06 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0502,Team_09,2026-07-15 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0503,Team_16,2026-07-12 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0504,Team_03,2026-10-24 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0505,Team_09,2026-07-08 00:00:00,My workload has increased and I often need to work late.,workload
+FB0506,Team_02,2026-09-05 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0507,Team_04,2026-10-01 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0508,Team_11,2026-08-27 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0509,Team_08,2026-10-02 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0510,Team_10,2026-07-15 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0511,Team_04,2026-10-22 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0512,Team_01,2026-09-07 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0513,Team_09,2026-08-21 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0514,Team_08,2026-10-16 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0515,Team_08,2026-09-28 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0516,Team_20,2026-09-04 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0517,Team_14,2026-08-10 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0518,Team_20,2026-08-10 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0519,Team_02,2026-08-05 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0520,Team_20,2026-08-15 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0521,Team_12,2026-09-26 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0522,Team_11,2026-10-04 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0523,Team_12,2026-07-13 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0524,Team_14,2026-10-18 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0525,Team_19,2026-10-15 00:00:00,The salary revision process is unclear.,compensation
+FB0526,Team_13,2026-07-05 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0527,Team_12,2026-07-10 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0528,Team_04,2026-10-07 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0529,Team_10,2026-08-22 00:00:00,The salary revision process is unclear.,compensation
+FB0530,Team_19,2026-08-08 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0531,Team_08,2026-10-07 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0532,Team_14,2026-07-19 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0533,Team_10,2026-07-25 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0534,Team_02,2026-10-20 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0535,Team_04,2026-10-17 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0536,Team_12,2026-08-13 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0537,Team_17,2026-08-28 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0538,Team_13,2026-10-22 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0539,Team_09,2026-10-17 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0540,Team_03,2026-07-14 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0541,Team_17,2026-07-08 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0542,Team_15,2026-10-10 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0543,Team_11,2026-08-28 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0544,Team_12,2026-07-19 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0545,Team_08,2026-09-30 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0546,Team_12,2026-08-23 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0547,Team_05,2026-08-21 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0548,Team_10,2026-08-09 00:00:00,My workload has increased and I often need to work late.,workload
+FB0549,Team_19,2026-07-24 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0550,Team_09,2026-10-22 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0551,Team_14,2026-10-23 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0552,Team_08,2026-08-19 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0553,Team_01,2026-07-24 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0554,Team_10,2026-10-20 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0555,Team_15,2026-09-02 00:00:00,My workload has increased and I often need to work late.,workload
+FB0556,Team_08,2026-07-06 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0557,Team_17,2026-10-14 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0558,Team_01,2026-10-05 00:00:00,My workload has increased and I often need to work late.,workload
+FB0559,Team_11,2026-07-09 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0560,Team_15,2026-08-16 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0561,Team_02,2026-07-20 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0562,Team_16,2026-07-22 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0563,Team_20,2026-07-24 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0564,Team_03,2026-09-21 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0565,Team_20,2026-09-10 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0566,Team_13,2026-07-15 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0567,Team_11,2026-08-15 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0568,Team_05,2026-10-21 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0569,Team_10,2026-08-22 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0570,Team_06,2026-08-11 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0571,Team_02,2026-09-22 00:00:00,The salary revision process is unclear.,compensation
+FB0572,Team_15,2026-08-21 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0573,Team_13,2026-07-11 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0574,Team_18,2026-07-24 00:00:00,My workload has increased and I often need to work late.,workload
+FB0575,Team_05,2026-08-14 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0576,Team_18,2026-10-22 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0577,Team_01,2026-08-11 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0578,Team_03,2026-07-23 00:00:00,My workload has increased and I often need to work late.,workload
+FB0579,Team_19,2026-07-31 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0580,Team_16,2026-07-24 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0581,Team_13,2026-09-14 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0582,Team_03,2026-08-10 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0583,Team_05,2026-08-17 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0584,Team_17,2026-08-13 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0585,Team_11,2026-08-19 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0586,Team_04,2026-09-14 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0587,Team_09,2026-10-02 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0588,Team_19,2026-07-20 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0589,Team_04,2026-10-04 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0590,Team_11,2026-08-30 00:00:00,The salary revision process is unclear.,compensation
+FB0591,Team_09,2026-08-02 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0592,Team_11,2026-08-25 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0593,Team_02,2026-09-24 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0594,Team_15,2026-09-12 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0595,Team_20,2026-07-03 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0596,Team_06,2026-08-25 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0597,Team_17,2026-09-22 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0598,Team_19,2026-08-19 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0599,Team_18,2026-09-28 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0600,Team_09,2026-09-15 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0601,Team_20,2026-09-20 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0602,Team_13,2026-10-03 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0603,Team_15,2026-08-26 00:00:00,The salary revision process is unclear.,compensation
+FB0604,Team_12,2026-09-25 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0605,Team_04,2026-08-13 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0606,Team_05,2026-10-12 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0607,Team_03,2026-07-12 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0608,Team_06,2026-07-23 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0609,Team_11,2026-07-22 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0610,Team_04,2026-09-21 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0611,Team_08,2026-09-30 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0612,Team_08,2026-08-01 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0613,Team_03,2026-09-21 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0614,Team_03,2026-07-09 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0615,Team_16,2026-09-06 00:00:00,The salary revision process is unclear.,compensation
+FB0616,Team_05,2026-08-21 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0617,Team_05,2026-08-09 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0618,Team_05,2026-08-24 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0619,Team_05,2026-10-14 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0620,Team_04,2026-08-01 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0621,Team_09,2026-09-20 00:00:00,My workload has increased and I often need to work late.,workload
+FB0622,Team_19,2026-07-28 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0623,Team_19,2026-08-12 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0624,Team_01,2026-10-09 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0625,Team_13,2026-08-21 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0626,Team_11,2026-09-30 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0627,Team_02,2026-09-21 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0628,Team_10,2026-08-27 00:00:00,The salary revision process is unclear.,compensation
+FB0629,Team_12,2026-09-27 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0630,Team_20,2026-07-13 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0631,Team_16,2026-07-08 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0632,Team_14,2026-10-10 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0633,Team_07,2026-07-15 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0634,Team_17,2026-09-09 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0635,Team_07,2026-10-24 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0636,Team_05,2026-07-20 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0637,Team_02,2026-09-12 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0638,Team_02,2026-10-05 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0639,Team_04,2026-09-24 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0640,Team_20,2026-07-31 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0641,Team_03,2026-08-04 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0642,Team_09,2026-07-28 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0643,Team_20,2026-09-04 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0644,Team_20,2026-08-20 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0645,Team_16,2026-09-09 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0646,Team_15,2026-10-05 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0647,Team_01,2026-09-05 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0648,Team_18,2026-07-05 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0649,Team_11,2026-09-23 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0650,Team_03,2026-08-15 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0651,Team_08,2026-07-28 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0652,Team_12,2026-08-17 00:00:00,My workload has increased and I often need to work late.,workload
+FB0653,Team_18,2026-08-31 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0654,Team_03,2026-10-23 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0655,Team_09,2026-07-29 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0656,Team_20,2026-09-23 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0657,Team_02,2026-08-18 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0658,Team_04,2026-07-22 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0659,Team_06,2026-07-23 00:00:00,The salary revision process is unclear.,compensation
+FB0660,Team_11,2026-10-02 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0661,Team_06,2026-07-14 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0662,Team_01,2026-10-18 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0663,Team_05,2026-08-16 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0664,Team_06,2026-07-05 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0665,Team_13,2026-08-20 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0666,Team_08,2026-10-15 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0667,Team_17,2026-07-09 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0668,Team_18,2026-10-09 00:00:00,My workload has increased and I often need to work late.,workload
+FB0669,Team_13,2026-09-01 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0670,Team_03,2026-09-29 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0671,Team_15,2026-10-22 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0672,Team_04,2026-08-31 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0673,Team_17,2026-07-19 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0674,Team_09,2026-07-14 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0675,Team_11,2026-09-16 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0676,Team_18,2026-08-15 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0677,Team_19,2026-10-01 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0678,Team_06,2026-09-17 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0679,Team_04,2026-08-09 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0680,Team_01,2026-09-22 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0681,Team_20,2026-08-15 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0682,Team_14,2026-08-24 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0683,Team_02,2026-09-08 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0684,Team_02,2026-08-02 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0685,Team_08,2026-09-09 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0686,Team_16,2026-08-04 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0687,Team_07,2026-07-28 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0688,Team_19,2026-10-05 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0689,Team_05,2026-10-15 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0690,Team_13,2026-08-27 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0691,Team_07,2026-10-03 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0692,Team_17,2026-08-15 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0693,Team_02,2026-08-11 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0694,Team_11,2026-10-09 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0695,Team_18,2026-08-04 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0696,Team_09,2026-09-29 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0697,Team_05,2026-08-17 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0698,Team_09,2026-09-21 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0699,Team_15,2026-10-16 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0700,Team_03,2026-08-22 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0701,Team_05,2026-07-03 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0702,Team_02,2026-08-10 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0703,Team_03,2026-07-31 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0704,Team_14,2026-10-15 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0705,Team_04,2026-08-03 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0706,Team_04,2026-07-14 00:00:00,My workload has increased and I often need to work late.,workload
+FB0707,Team_20,2026-07-11 00:00:00,My workload has increased and I often need to work late.,workload
+FB0708,Team_11,2026-10-04 00:00:00,My workload has increased and I often need to work late.,workload
+FB0709,Team_16,2026-07-05 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0710,Team_07,2026-09-13 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0711,Team_15,2026-08-18 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0712,Team_04,2026-08-24 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0713,Team_16,2026-09-29 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0714,Team_16,2026-07-29 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0715,Team_07,2026-10-19 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0716,Team_18,2026-07-10 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0717,Team_07,2026-09-26 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0718,Team_14,2026-10-14 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0719,Team_12,2026-07-29 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0720,Team_06,2026-09-11 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0721,Team_13,2026-10-16 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0722,Team_13,2026-09-17 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0723,Team_02,2026-09-26 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0724,Team_09,2026-07-11 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0725,Team_09,2026-10-05 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0726,Team_17,2026-10-05 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0727,Team_16,2026-10-20 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0728,Team_02,2026-09-10 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0729,Team_10,2026-10-20 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0730,Team_20,2026-09-24 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0731,Team_11,2026-09-16 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0732,Team_07,2026-08-27 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0733,Team_20,2026-08-29 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0734,Team_09,2026-07-26 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0735,Team_01,2026-09-13 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0736,Team_11,2026-09-24 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0737,Team_12,2026-10-22 00:00:00,My workload has increased and I often need to work late.,workload
+FB0738,Team_20,2026-07-20 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0739,Team_07,2026-08-15 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0740,Team_06,2026-09-27 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0741,Team_19,2026-10-18 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0742,Team_10,2026-10-07 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0743,Team_05,2026-09-23 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0744,Team_14,2026-07-31 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0745,Team_20,2026-07-02 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0746,Team_07,2026-09-13 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0747,Team_19,2026-08-07 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0748,Team_14,2026-10-05 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0749,Team_09,2026-07-29 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0750,Team_19,2026-10-14 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0751,Team_06,2026-07-05 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0752,Team_02,2026-09-04 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0753,Team_13,2026-08-17 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0754,Team_17,2026-08-08 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0755,Team_03,2026-08-19 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0756,Team_20,2026-08-21 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0757,Team_16,2026-10-23 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0758,Team_20,2026-08-06 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0759,Team_14,2026-10-12 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0760,Team_01,2026-07-07 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0761,Team_01,2026-07-03 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0762,Team_11,2026-09-09 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0763,Team_09,2026-08-14 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0764,Team_13,2026-10-12 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0765,Team_04,2026-09-07 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0766,Team_14,2026-07-18 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0767,Team_14,2026-07-17 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0768,Team_20,2026-10-19 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0769,Team_07,2026-10-15 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0770,Team_15,2026-07-27 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0771,Team_08,2026-08-25 00:00:00,My workload has increased and I often need to work late.,workload
+FB0772,Team_07,2026-08-20 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0773,Team_13,2026-09-12 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0774,Team_05,2026-09-21 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0775,Team_10,2026-09-11 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0776,Team_04,2026-07-05 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0777,Team_10,2026-07-19 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0778,Team_03,2026-10-04 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0779,Team_05,2026-09-09 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0780,Team_07,2026-10-16 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0781,Team_01,2026-10-10 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0782,Team_04,2026-10-14 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0783,Team_12,2026-09-30 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0784,Team_02,2026-09-10 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0785,Team_09,2026-09-13 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0786,Team_14,2026-09-24 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0787,Team_15,2026-07-22 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0788,Team_15,2026-08-29 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0789,Team_20,2026-07-16 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0790,Team_20,2026-07-21 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0791,Team_10,2026-09-07 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0792,Team_02,2026-07-25 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0793,Team_08,2026-07-24 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0794,Team_12,2026-09-10 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0795,Team_06,2026-07-12 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0796,Team_11,2026-07-18 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0797,Team_14,2026-10-08 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0798,Team_09,2026-08-25 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0799,Team_06,2026-08-29 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0800,Team_15,2026-08-30 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0801,Team_09,2026-10-01 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0802,Team_04,2026-07-14 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0803,Team_10,2026-08-02 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0804,Team_04,2026-09-18 00:00:00,My workload has increased and I often need to work late.,workload
+FB0805,Team_06,2026-08-22 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0806,Team_14,2026-08-18 00:00:00,The salary revision process is unclear.,compensation
+FB0807,Team_06,2026-08-19 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0808,Team_07,2026-08-13 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0809,Team_03,2026-08-17 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0810,Team_07,2026-08-22 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0811,Team_17,2026-07-01 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0812,Team_05,2026-09-07 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0813,Team_11,2026-09-26 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0814,Team_15,2026-07-12 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0815,Team_19,2026-08-07 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0816,Team_05,2026-09-27 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0817,Team_16,2026-08-28 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0818,Team_20,2026-10-22 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0819,Team_09,2026-10-20 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0820,Team_16,2026-08-09 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0821,Team_01,2026-07-10 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0822,Team_11,2026-08-07 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0823,Team_20,2026-08-03 00:00:00,The salary revision process is unclear.,compensation
+FB0824,Team_05,2026-07-06 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0825,Team_06,2026-09-30 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0826,Team_11,2026-08-19 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0827,Team_11,2026-10-23 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0828,Team_18,2026-08-28 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0829,Team_09,2026-07-15 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0830,Team_18,2026-08-15 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0831,Team_20,2026-07-27 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0832,Team_04,2026-07-04 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0833,Team_05,2026-09-21 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0834,Team_11,2026-09-17 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0835,Team_08,2026-08-16 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0836,Team_10,2026-08-24 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0837,Team_18,2026-07-07 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0838,Team_01,2026-10-13 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0839,Team_01,2026-09-04 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0840,Team_20,2026-07-28 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0841,Team_03,2026-08-04 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0842,Team_05,2026-09-09 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0843,Team_15,2026-09-18 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0844,Team_11,2026-07-19 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0845,Team_11,2026-09-29 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0846,Team_07,2026-07-02 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0847,Team_06,2026-07-31 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0848,Team_16,2026-07-28 00:00:00,My workload has increased and I often need to work late.,workload
+FB0849,Team_01,2026-08-10 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0850,Team_19,2026-08-13 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0851,Team_07,2026-08-09 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0852,Team_13,2026-07-03 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0853,Team_16,2026-09-08 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0854,Team_01,2026-08-28 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0855,Team_07,2026-07-04 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0856,Team_15,2026-10-06 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0857,Team_09,2026-07-15 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0858,Team_16,2026-08-05 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0859,Team_02,2026-10-16 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0860,Team_01,2026-07-11 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0861,Team_01,2026-09-16 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0862,Team_17,2026-09-08 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0863,Team_02,2026-09-26 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0864,Team_18,2026-07-05 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0865,Team_06,2026-10-21 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0866,Team_01,2026-10-11 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0867,Team_18,2026-10-15 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0868,Team_15,2026-08-28 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0869,Team_06,2026-08-13 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0870,Team_16,2026-08-10 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0871,Team_09,2026-08-26 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0872,Team_14,2026-10-21 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0873,Team_20,2026-09-06 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0874,Team_19,2026-08-31 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0875,Team_17,2026-08-05 00:00:00,My workload has increased and I often need to work late.,workload
+FB0876,Team_04,2026-10-16 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0877,Team_12,2026-08-14 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0878,Team_07,2026-09-08 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0879,Team_02,2026-08-29 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0880,Team_02,2026-09-15 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0881,Team_19,2026-07-31 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0882,Team_06,2026-08-07 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0883,Team_15,2026-08-26 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0884,Team_15,2026-07-13 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0885,Team_10,2026-08-06 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0886,Team_16,2026-10-15 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0887,Team_03,2026-09-06 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0888,Team_07,2026-08-06 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0889,Team_10,2026-09-24 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0890,Team_12,2026-10-13 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0891,Team_15,2026-09-10 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0892,Team_03,2026-09-14 00:00:00,My workload has increased and I often need to work late.,workload
+FB0893,Team_14,2026-08-21 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0894,Team_18,2026-09-25 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0895,Team_03,2026-10-07 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0896,Team_18,2026-09-01 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0897,Team_02,2026-08-24 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0898,Team_14,2026-08-14 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0899,Team_06,2026-08-05 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0900,Team_05,2026-08-10 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0901,Team_16,2026-07-02 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0902,Team_06,2026-10-21 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0903,Team_19,2026-10-14 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0904,Team_15,2026-08-19 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0905,Team_20,2026-10-01 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0906,Team_09,2026-09-04 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0907,Team_16,2026-07-04 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0908,Team_17,2026-10-09 00:00:00,Flexible working arrangements have helped me.,work_life_balance
+FB0909,Team_13,2026-08-21 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB0910,Team_11,2026-10-09 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0911,Team_12,2026-09-21 00:00:00,My workload has increased and I often need to work late.,workload
+FB0912,Team_16,2026-09-14 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0913,Team_04,2026-10-13 00:00:00,The salary revision process is unclear.,compensation
+FB0914,Team_07,2026-07-24 00:00:00,Late meetings make it difficult to manage personal commitments.,work_life_balance
+FB0915,Team_18,2026-09-21 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0916,Team_06,2026-08-03 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0917,Team_15,2026-09-07 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0918,Team_13,2026-08-04 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0919,Team_15,2026-09-10 00:00:00,My workload has increased and I often need to work late.,workload
+FB0920,Team_20,2026-09-23 00:00:00,My workload has increased and I often need to work late.,workload
+FB0921,Team_16,2026-07-25 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0922,Team_18,2026-08-20 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0923,Team_11,2026-09-03 00:00:00,My manager treats team members fairly.,management_behaviour
+FB0924,Team_13,2026-10-13 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0925,Team_02,2026-08-15 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0926,Team_16,2026-08-10 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0927,Team_04,2026-07-12 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0928,Team_13,2026-10-15 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0929,Team_02,2026-07-04 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0930,Team_06,2026-07-31 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0931,Team_05,2026-07-15 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0932,Team_09,2026-08-27 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0933,Team_08,2026-08-06 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0934,Team_15,2026-08-19 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0935,Team_18,2026-10-05 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0936,Team_14,2026-07-09 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0937,Team_02,2026-08-29 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0938,Team_01,2026-09-22 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0939,Team_18,2026-09-21 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0940,Team_07,2026-07-03 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0941,Team_18,2026-09-24 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0942,Team_16,2026-08-19 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0943,Team_10,2026-07-04 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0944,Team_09,2026-07-18 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0945,Team_02,2026-08-03 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0946,Team_03,2026-09-16 00:00:00,Important updates are sometimes communicated too late.,team_communication
+FB0947,Team_06,2026-10-04 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0948,Team_07,2026-08-30 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0949,Team_07,2026-09-19 00:00:00,I believe compensation should better reflect responsibilities.,compensation
+FB0950,Team_18,2026-08-12 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0951,Team_18,2026-07-25 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0952,Team_10,2026-09-19 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0953,Team_05,2026-08-20 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0954,Team_03,2026-07-06 00:00:00,My workload has increased and I often need to work late.,workload
+FB0955,Team_20,2026-08-01 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0956,Team_03,2026-07-09 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0957,Team_16,2026-10-06 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0958,Team_07,2026-09-08 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0959,Team_06,2026-08-15 00:00:00,I would like HR to review a concern about repeated disrespectful treatment.,serious_concern
+FB0960,Team_08,2026-09-03 00:00:00,My workload has increased and I often need to work late.,workload
+FB0961,Team_16,2026-09-19 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0962,Team_08,2026-10-02 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0963,Team_12,2026-09-25 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0964,Team_11,2026-10-17 00:00:00,I do not feel heard when I raise concerns with my manager.,management_behaviour
+FB0965,Team_20,2026-08-27 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0966,Team_19,2026-08-26 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0967,Team_05,2026-10-22 00:00:00,Deadlines are difficult to manage with the current staffing levels.,workload
+FB0968,Team_18,2026-10-17 00:00:00,The workload is manageable and priorities are clear.,workload
+FB0969,Team_04,2026-09-26 00:00:00,My workload has increased and I often need to work late.,workload
+FB0970,Team_04,2026-10-13 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0971,Team_02,2026-07-07 00:00:00,I can usually maintain a healthy work-life balance.,work_life_balance
+FB0972,Team_06,2026-09-26 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0973,Team_15,2026-10-10 00:00:00,Cross-team coordination could be improved.,team_communication
+FB0974,Team_19,2026-09-19 00:00:00,Expectations from leadership change without enough explanation.,management_behaviour
+FB0975,Team_12,2026-07-23 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0976,Team_14,2026-09-26 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0977,Team_04,2026-07-01 00:00:00,I felt pressured not to report behaviour that made me uncomfortable.,serious_concern
+FB0978,Team_07,2026-08-25 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0979,Team_01,2026-08-25 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0980,Team_16,2026-09-06 00:00:00,I would appreciate more training and development opportunities.,career_growth
+FB0981,Team_15,2026-07-22 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0982,Team_16,2026-09-11 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0983,Team_13,2026-09-29 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0984,Team_17,2026-08-31 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0985,Team_14,2026-08-08 00:00:00,I feel comfortable sharing ideas with colleagues.,team_communication
+FB0986,Team_04,2026-07-26 00:00:00,There are limited opportunities for career growth in my team.,career_growth
+FB0987,Team_17,2026-08-14 00:00:00,I find it difficult to disconnect after working hours.,work_life_balance
+FB0988,Team_06,2026-08-09 00:00:00,My role gives me opportunities to learn new skills.,career_growth
+FB0989,Team_18,2026-07-05 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0990,Team_06,2026-08-12 00:00:00,I understand how the performance bonus is calculated.,compensation
+FB0991,Team_03,2026-08-13 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0992,Team_19,2026-10-18 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0993,Team_05,2026-10-18 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0994,Team_01,2026-10-03 00:00:00,My manager gives constructive feedback and supports the team.,management_behaviour
+FB0995,Team_16,2026-10-01 00:00:00,Benefits and salary communication could be more transparent.,compensation
+FB0996,Team_19,2026-09-09 00:00:00,We need better planning to avoid last-minute requests.,workload
+FB0997,Team_09,2026-07-23 00:00:00,I am concerned about repeated inappropriate comments at work.,serious_concern
+FB0998,Team_19,2026-10-11 00:00:00,My team communicates well and shares information promptly.,team_communication
+FB0999,Team_12,2026-09-13 00:00:00,Career progression criteria are not clearly communicated.,career_growth
+FB1000,Team_14,2026-08-27 00:00:00,My team communicates well and shares information promptly.,team_communication
+DEMO001,Team_01,2026-10-20,"My team communicates well, and I enjoy working with my colleagues.",routine_demo
+DEMO002,Team_02,2026-10-20,Rohan from Project Falcon in the Pune office keeps assigning me late shifts.,direct_identifier_demo
+DEMO003,Team_03,2026-10-20,I am reporting repeated harassment and inappropriate comments by a colleague.,escalation_demo
+DEMO004,Team_04,2026-10-20,"As the only employee who joined the night shift on Diwali, I was denied leave.",indirect_identifier_edge_case
